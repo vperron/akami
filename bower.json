@@ -1,0 +1,61 @@
+{
+  "name": "app",
+  "version": "0.0.0",
+  "dependencies": {
+    "console-polyfill": "~0.1",
+    "angular": "1.2.16",
+    "json3": "~3.3.1",
+    "es5-shim": "~3.1.0",
+    "bootstrap": "~3.1.1",
+    "jquery": "~2",
+    "lodash": "~2",
+    "angular-ui-router": "~0.2",
+    "d3": "~3.4",
+    "d3-tip": "0.6.4",
+    "font-awesome": "~4.1",
+    "moment": "~2.6",
+    "moment-timezone": "git://github.com/moment/moment-timezone.git"
+  },
+  "devDependencies": {
+    "angular-mocks": "1.2.16",
+    "angular-scenario": "1.2.16"
+  },
+  "appPath": "app",
+  "overrides": {
+    "bootstrap": {
+      "main": ["dist/js/bootstrap.js"],
+      "ignore": [
+        "*"
+      ]
+    },
+    "moment": {
+      "main": [
+        "moment.js",
+        "lang/fr.js"
+      ],
+      "ignore": [
+        "*"
+      ]
+    },
+    "d3": {
+      "main": "d3.js",
+      "ignore": [
+        "*"
+      ]
+    },
+    "font-awesome": {
+      "main": [
+        "css/font-awesome.css"
+      ],
+      "ignore": [
+        "*"
+      ]
+    },
+    "moment-timezone": {
+      "main": "moment-timezone.js",
+      "ignore": [
+        "*"
+      ]
+    }
+  }
+}
