@@ -406,7 +406,7 @@ module.exports = function (grunt) {
             '*.{ico,png,txt}',
             '.htaccess',
             '*.html',
-            '**/assets/*',
+            '**/assets/**/*',
             'images/{,*/}*.{webp}',
             'fonts/*',
           ]
@@ -417,7 +417,7 @@ module.exports = function (grunt) {
           dest: '<%= yeoman.dist %>',
           src: [
             '*.html',
-            '**/assets/*'
+            '**/assets/**/*'
           ]
         },
         {
